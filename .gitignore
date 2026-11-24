@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build outputs & caches
+frontend/dist/
+.vite/
+*.tsbuildinfo
+
+# Environment secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Local tool / agent / review artifacts (keep design.json sidecar referenced by README.md)
+.agents/
+.impeccable/*
+!.impeccable/design.json
+
+# Compiled standalone HTML bundle & academic PDFs (excluded for clean dev handoff)
+Giao_dien_Nha_kinh_IoT.html
+*.pdf
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T07:26:00Z",
+  "title": "Design System: Smart Greenhouse IoT",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Botanical Action Green",
+        "canonical": "#15803D",
+        "tonalRamp": ["#072714", "#0F3F22", "#14532D", "#166534", "#15803D", "#4BAE72", "#B7E1C6", "#EAF6EE"]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Botanical Forest Hover",
+        "canonical": "#166534",
+        "tonalRamp": ["#072714", "#0F3F22", "#14532D", "#166534", "#15803D", "#4BAE72", "#B7E1C6", "#EAF6EE"]
+      },
+      "primary-soft": {
+        "role": "primary",
+        "displayName": "Botanical Mist Soft",
+        "canonical": "#EAF6EE",
+        "tonalRamp": ["#072714", "#0F3F22", "#14532D", "#166534", "#15803D", "#4BAE72", "#B7E1C6", "#EAF6EE"]
+      },
+      "primary-border": {
+        "role": "primary",
+        "displayName": "Botanical Sage Border",
+        "canonical": "#B7E1C6",
+        "tonalRamp": ["#072714", "#0F3F22", "#14532D", "#166534", "#15803D", "#4BAE72", "#B7E1C6", "#EAF6EE"]
+      },
+      "primary-deep": {
+        "role": "primary",
+        "displayName": "Botanical Deep Pine",
+        "canonical": "#14532D",
+        "tonalRamp": ["#072714", "#0F3F22", "#14532D", "#166534", "#15803D", "#4BAE72", "#B7E1C6", "#EAF6EE"]
+      },
+      "range-optimal": {
+        "role": "semantic",
+        "displayName": "Calibrated Optimal Sage",
+        "canonical": "#9AC4AE",
+        "tonalRamp": [
+          "oklch(20% 0.03 155)",
+          "oklch(32% 0.05 155)",
+          "oklch(45% 0.06 155)",
+          "oklch(58% 0.07 155)",
+          "oklch(70% 0.07 155)",
+          "oklch(78% 0.06 155)",
+          "oklch(88% 0.04 155)",
+          "oklch(95% 0.02 155)"
+        ]
+      },
+      "canvas-linen": {
+        "role": "neutral",
+        "displayName": "Warm Linen Canvas",
+        "canonical": "#F6F4EF",
+        "tonalRamp": [
+          "oklch(20% 0.01 82)",
+          "oklch(34% 0.012 82)",
+          "oklch(48% 0.014 82)",
+          "oklch(62% 0.015 82)",
+          "oklch(76% 0.015 82)",
+          "oklch(86% 0.014 82)",
+          "oklch(94% 0.012 82)",
+          "oklch(97% 0.008 82)"
+        ]
+      },
+      "surface-white": {
+        "role": "neutral",
+        "displayName": "Pure Surface White",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "oklch(18% 0 0)",
+          "oklch(32% 0 0)",
+          "oklch(48% 0 0)",
+          "oklch(64% 0 0)",
+          "oklch(78% 0 0)",
+          "oklch(90% 0 0)",
+          "oklch(96% 0 0)",
+          "oklch(100% 0 0)"
+        ]
+      },
+      "well-linen": {
+        "role": "neutral",
+        "displayName": "Soft Linen Well",
+        "canonical": "#FAF9F6",
+        "tonalRamp": [
+          "oklch(20% 0.008 82)",
+          "oklch(34% 0.01 82)",
+          "oklch(48% 0.012 82)",
+          "oklch(62% 0.012 82)",
+          "oklch(76% 0.012 82)",
+          "oklch(88% 0.01 82)",
+          "oklch(95% 0.008 82)",
+          "oklch(98% 0.006 82)"
+        ]
+      },
+      "rail-sand": {
+        "role": "neutral",
+        "displayName": "Warm Sand Rail",
+        "canonical": "#EFECE4",
+        "tonalRamp": [
+          "oklch(20% 0.012 82)",
+          "oklch(34% 0.014 82)",
+          "oklch(48% 0.016 82)",
+          "oklch(62% 0.016 82)",
+          "oklch(76% 0.016 82)",
+          "oklch(87% 0.015 82)",
+          "oklch(94% 0.012 82)",
+          "oklch(97% 0.008 82)"
+        ]
+      },
+      "border-hairline": {
+        "role": "neutral",
+        "displayName": "Warm Stone Hairline",
+        "canonical": "#E6E1D6",
+        "tonalRamp": [
+          "oklch(20% 0.012 80)",
+          "oklch(34% 0.015 80)",
+          "oklch(48% 0.017 80)",
+          "oklch(62% 0.018 80)",
+          "oklch(76% 0.018 80)",
+          "oklch(86% 0.017 80)",
+          "oklch(91% 0.016 80)",
+          "oklch(96% 0.01 80)"
+        ]
+      },
+      "border-rail": {
+        "role": "neutral",
+        "displayName": "Sand Rail Divider",
+        "canonical": "#E2DDD2",
+        "tonalRamp": [
+          "oklch(20% 0.012 80)",
+          "oklch(34% 0.015 80)",
+          "oklch(48% 0.017 80)",
+          "oklch(62% 0.018 80)",
+          "oklch(76% 0.018 80)",
+          "oklch(86% 0.017 80)",
+          "oklch(90% 0.016 80)",
+          "oklch(96% 0.01 80)"
+        ]
+      },
+      "border-control": {
+        "role": "neutral",
+        "displayName": "Control Stone Border",
+        "canonical": "#D8D2C5",
+        "tonalRamp": [
+          "oklch(20% 0.014 80)",
+          "oklch(34% 0.016 80)",
+          "oklch(48% 0.018 80)",
+          "oklch(62% 0.018 80)",
+          "oklch(75% 0.018 80)",
+          "oklch(86% 0.017 80)",
+          "oklch(92% 0.014 80)",
+          "oklch(96% 0.01 80)"
+        ]
+      },
+      "ink-primary": {
+        "role": "neutral",
+        "displayName": "Deep Charcoal Ink",
+        "canonical": "#1F2933",
+        "tonalRamp": [
+          "oklch(16% 0.018 245)",
+          "oklch(27% 0.022 245)",
+          "oklch(38% 0.024 245)",
+          "oklch(50% 0.022 245)",
+          "oklch(63% 0.02 245)",
+          "oklch(76% 0.016 245)",
+          "oklch(88% 0.01 245)",
+          "oklch(96% 0.005 245)"
+        ]
+      },
+      "ink-slate": {
+        "role": "neutral",
+        "displayName": "Slate Charcoal",
+        "canonical": "#3E4C59",
+        "tonalRamp": [
+          "oklch(16% 0.018 245)",
+          "oklch(28% 0.024 245)",
+          "oklch(40% 0.025 245)",
+          "oklch(52% 0.024 245)",
+          "oklch(64% 0.02 245)",
+          "oklch(76% 0.015 245)",
+          "oklch(88% 0.01 245)",
+          "oklch(96% 0.005 245)"
+        ]
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Medium Charcoal",
+        "canonical": "#52606D",
+        "tonalRamp": [
+          "oklch(16% 0.018 245)",
+          "oklch(28% 0.022 245)",
+          "oklch(40% 0.024 245)",
+          "oklch(48% 0.024 245)",
+          "oklch(62% 0.02 245)",
+          "oklch(75% 0.016 245)",
+          "oklch(88% 0.01 245)",
+          "oklch(96% 0.005 245)"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Stone Ink",
+        "canonical": "#616E7C",
+        "tonalRamp": [
+          "oklch(16% 0.018 245)",
+          "oklch(28% 0.022 245)",
+          "oklch(42% 0.024 245)",
+          "oklch(54% 0.024 245)",
+          "oklch(66% 0.02 245)",
+          "oklch(78% 0.015 245)",
+          "oklch(89% 0.01 245)",
+          "oklch(96% 0.005 245)"
+        ]
+      },
+      "control-off": {
+        "role": "neutral",
+        "displayName": "Unlit Switch Track",
+        "canonical": "#CBD2D9",
+        "tonalRamp": [
+          "oklch(18% 0.01 245)",
+          "oklch(32% 0.014 245)",
+          "oklch(46% 0.016 245)",
+          "oklch(60% 0.016 245)",
+          "oklch(73% 0.014 245)",
+          "oklch(86% 0.012 245)",
+          "oklch(92% 0.008 245)",
+          "oklch(97% 0.004 245)"
+        ]
+      },
+      "critical": {
+        "role": "semantic",
+        "displayName": "Critical Crimson",
+        "canonical": "#BE123C",
+        "tonalRamp": [
+          "oklch(22% 0.09 12)",
+          "oklch(34% 0.14 12)",
+          "oklch(46% 0.19 12)",
+          "oklch(52% 0.21 12)",
+          "oklch(62% 0.19 12)",
+          "oklch(74% 0.14 12)",
+          "oklch(88% 0.07 12)",
+          "oklch(96% 0.02 12)"
+        ]
+      },
+      "critical-deep": {
+        "role": "semantic",
+        "displayName": "Deep Crimson",
+        "canonical": "#9F1239",
+        "tonalRamp": [
+          "oklch(22% 0.09 12)",
+          "oklch(34% 0.14 12)",
+          "oklch(44% 0.18 12)",
+          "oklch(52% 0.21 12)",
+          "oklch(62% 0.19 12)",
+          "oklch(74% 0.14 12)",
+          "oklch(88% 0.07 12)",
+          "oklch(96% 0.02 12)"
+        ]
+      },
+      "critical-soft": {
+        "role": "semantic",
+        "displayName": "Rose Mist",
+        "canonical": "#FFF1F2",
+        "tonalRamp": [
+          "oklch(22% 0.09 12)",
+          "oklch(34% 0.14 12)",
+          "oklch(46% 0.19 12)",
+          "oklch(58% 0.18 12)",
+          "oklch(70% 0.14 12)",
+          "oklch(82% 0.09 12)",
+          "oklch(91% 0.05 12)",
+          "oklch(97% 0.02 12)"
+        ]
+      },
+      "critical-border": {
+        "role": "semantic",
+        "displayName": "Rose Border",
+        "canonical": "#FECDD3",
+        "tonalRamp": [
+          "oklch(22% 0.09 12)",
+          "oklch(34% 0.14 12)",
+          "oklch(46% 0.19 12)",
+          "oklch(58% 0.18 12)",
+          "oklch(70% 0.14 12)",
+          "oklch(82% 0.09 12)",
+          "oklch(89% 0.06 12)",
+          "oklch(97% 0.02 12)"
+        ]
+      },
+      "warning": {
+        "role": "semantic",
+        "displayName": "Solar Amber",
+        "canonical": "#B45309",
+        "tonalRamp": [
+          "oklch(24% 0.06 60)",
+          "oklch(38% 0.11 60)",
+          "oklch(52% 0.15 60)",
+          "oklch(62% 0.16 60)",
+          "oklch(73% 0.16 68)",
+          "oklch(84% 0.13 78)",
+          "oklch(91% 0.08 85)",
+          "oklch(96% 0.04 88)"
+        ]
+      },
+      "warning-deep": {
+        "role": "semantic",
+        "displayName": "Warm Ochre",
+        "canonical": "#92400E",
+        "tonalRamp": [
+          "oklch(24% 0.06 60)",
+          "oklch(38% 0.11 60)",
+          "oklch(48% 0.14 60)",
+          "oklch(60% 0.16 64)",
+          "oklch(72% 0.16 70)",
+          "oklch(84% 0.13 78)",
+          "oklch(91% 0.08 85)",
+          "oklch(96% 0.04 88)"
+        ]
+      },
+      "warning-soft": {
+        "role": "semantic",
+        "displayName": "Sunlit Cream",
+        "canonical": "#FEF3C7",
+        "tonalRamp": [
+          "oklch(24% 0.06 60)",
+          "oklch(38% 0.11 60)",
+          "oklch(52% 0.15 60)",
+          "oklch(64% 0.16 66)",
+          "oklch(76% 0.16 74)",
+          "oklch(86% 0.13 82)",
+          "oklch(93% 0.07 88)",
+          "oklch(97% 0.03 90)"
+        ]
+      },
+      "warning-border": {
+        "role": "semantic",
+        "displayName": "Amber Border",
+        "canonical": "#FCD34D",
+        "tonalRamp": [
+          "oklch(24% 0.06 60)",
+          "oklch(38% 0.11 60)",
+          "oklch(52% 0.15 60)",
+          "oklch(64% 0.16 66)",
+          "oklch(76% 0.16 74)",
+          "oklch(87% 0.14 85)",
+          "oklch(93% 0.07 88)",
+          "oklch(97% 0.03 90)"
+        ]
+      },
+      "info": {
+        "role": "semantic",
+        "displayName": "Hydro Sky",
+        "canonical": "#0369A1",
+        "tonalRamp": [
+          "oklch(22% 0.06 238)",
+          "oklch(34% 0.09 238)",
+          "oklch(48% 0.12 238)",
+          "oklch(56% 0.13 236)",
+          "oklch(68% 0.12 232)",
+          "oklch(80% 0.09 228)",
+          "oklch(90% 0.05 224)",
+          "oklch(97% 0.02 222)"
+        ]
+      },
+      "info-deep": {
+        "role": "semantic",
+        "displayName": "Deep Sky",
+        "canonical": "#075985",
+        "tonalRamp": [
+          "oklch(22% 0.06 238)",
+          "oklch(34% 0.09 238)",
+          "oklch(44% 0.11 238)",
+          "oklch(56% 0.13 236)",
+          "oklch(68% 0.12 232)",
+          "oklch(80% 0.09 228)",
+          "oklch(90% 0.05 224)",
+          "oklch(97% 0.02 222)"
+        ]
+      },
+      "info-soft": {
+        "role": "semantic",
+        "displayName": "Ice Sky",
+        "canonical": "#F0F9FF",
+        "tonalRamp": [
+          "oklch(22% 0.06 238)",
+          "oklch(34% 0.09 238)",
+          "oklch(48% 0.12 238)",
+          "oklch(60% 0.12 234)",
+          "oklch(72% 0.11 230)",
+          "oklch(83% 0.08 226)",
+          "oklch(92% 0.04 222)",
+          "oklch(98% 0.015 220)"
+        ]
+      },
+      "info-border": {
+        "role": "semantic",
+        "displayName": "Sky Border",
+        "canonical": "#BAE6FD",
+        "tonalRamp": [
+          "oklch(22% 0.06 238)",
+          "oklch(34% 0.09 238)",
+          "oklch(48% 0.12 238)",
+          "oklch(60% 0.12 234)",
+          "oklch(72% 0.11 230)",
+          "oklch(84% 0.07 226)",
+          "oklch(92% 0.04 222)",
+          "oklch(98% 0.015 220)"
+        ]
+      },
+      "thermal-terracotta": {
+        "role": "semantic",
+        "displayName": "Thermal Terracotta",
+        "canonical": "#C2410C",
+        "tonalRamp": [
+          "oklch(22% 0.06 42)",
+          "oklch(35% 0.11 42)",
+          "oklch(48% 0.15 42)",
+          "oklch(56% 0.17 42)",
+          "oklch(66% 0.16 44)",
+          "oklch(78% 0.12 46)",
+          "oklch(89% 0.06 50)",
+          "oklch(96% 0.02 54)"
+        ]
+      },
+      "hazard-amber": {
+        "role": "semantic",
+        "displayName": "Hazard Collar Amber",
+        "canonical": "#D97706",
+        "tonalRamp": [
+          "oklch(24% 0.06 62)",
+          "oklch(38% 0.11 64)",
+          "oklch(52% 0.15 66)",
+          "oklch(66% 0.16 68)",
+          "oklch(74% 0.16 72)",
+          "oklch(84% 0.13 80)",
+          "oklch(91% 0.08 86)",
+          "oklch(96% 0.03 90)"
+        ]
+      },
+      "hazard-charcoal": {
+        "role": "semantic",
+        "displayName": "Hazard Collar Charcoal",
+        "canonical": "#292524",
+        "tonalRamp": [
+          "oklch(18% 0.008 45)",
+          "oklch(27% 0.008 45)",
+          "oklch(39% 0.008 45)",
+          "oklch(52% 0.008 45)",
+          "oklch(65% 0.008 45)",
+          "oklch(78% 0.006 45)",
+          "oklch(89% 0.004 45)",
+          "oklch(96% 0.002 45)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Primary dashboard workspace heading."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sub-page titles and master control section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Zone card titles, gateway headers, and modal titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Operational descriptions, form values, alert messages, and AI responses."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Sensor labels, navigation items, pill badges, and metadata captions."
+      },
+      "mono": {
+        "displayName": "Mono Telemetry",
+        "purpose": "Tabular numeric sensor readings, deltas, wattage, DLI, and live timestamps."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 2px 8px rgba(31, 41, 51, 0.04)",
+        "purpose": "Quiet ambient resting shadow under white operational cards and active segmented pills."
+      },
+      {
+        "name": "card-hover",
+        "value": "0 6px 18px rgba(31, 41, 51, 0.07)",
+        "purpose": "Gentle hover elevation on interactive zone, gateway, actuator, and rule cards."
+      },
+      {
+        "name": "popover",
+        "value": "0 12px 32px rgba(31, 41, 51, 0.12)",
+        "purpose": "Overlay elevation for hardware mesh popovers, Recharts tooltips, modal dialogs, and mobile drawers."
+      },
+      {
+        "name": "slider-thumb",
+        "value": "0 2px 6px rgba(31, 41, 51, 0.2)",
+        "purpose": "Tactile grip depth under the 20px warm-slider thumb."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Crisp deceleration curve for modal entry, mobile drawer slide, and slider thumb hover."
+      },
+      {
+        "name": "duration-control",
+        "value": "150ms",
+        "purpose": "Standard transition duration for buttons, nav links, and role switcher pills."
+      },
+      {
+        "name": "duration-toggle",
+        "value": "200ms",
+        "purpose": "Smooth rocker switch thumb travel and active card border transitions."
+      },
+      {
+        "name": "modal-in",
+        "value": "modal-in 0.2s cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Subtle 6px rise and 0.98-to-1 scale-in for dialogs, popovers, and emergency halt banners."
+      },
+      {
+        "name": "drawer-in",
+        "value": "drawer-in 0.22s cubic-bezier(0.22, 1, 0.36, 1)",
+        "purpose": "Horizontal slide-in for the mobile sand navigation drawer."
+      },
+      {
+        "name": "fade-in",
+        "value": "fade-in 0.18s ease-out",
+        "purpose": "Quiet opacity entrance for saved telemetry interval confirmations."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px", "purpose": "Switches zone cards to 3-column divider wells and reveals topbar sync status and segmented role switcher." },
+      { "name": "md", "value": "768px", "purpose": "Transitions from mobile bottom nav + drawer to persistent 72px sand rail." },
+      { "name": "lg", "value": "1024px", "purpose": "Expands sand rail to 240px and arranges Zone 1 & Zone 2 side by side." },
+      { "name": "xl", "value": "1280px", "purpose": "Activates the 1fr / 1.6fr lower operational band pairing Gateway Lux and 2x2 quick actuators." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Action-first botanical green commitment button; desaturates completely to stone when disabled.",
+      "html": "<div class=\"ds-btn-row\"><button type=\"button\" class=\"ds-btn-primary\"><svg class=\"ds-btn-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"/></svg><span>Hỏi Trợ lý AI Gemini</span></button><button type=\"button\" class=\"ds-btn-primary\" disabled><span>Đã khóa (Viewer)</span></button></div>",
+      "css": ".ds-btn-row { display: inline-flex; flex-wrap: wrap; gap: 10px; align-items: center; font-family: 'Be Vietnam Pro', system-ui, sans-serif; } .ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 8px 16px; border: none; border-radius: var(--control-radius, 12px); background-color: var(--action-primary, #15803D); color: #FFFFFF; font-size: 14px; font-weight: 600; cursor: pointer; box-shadow: 0 1px 2px rgba(31, 41, 51, 0.08); transition: background-color 150ms ease, transform 150ms ease; } .ds-btn-primary:hover:not(:disabled) { background-color: var(--action-primary-hover, #166534); } .ds-btn-primary:active:not(:disabled) { transform: scale(0.98); } .ds-btn-primary:focus-visible { outline: 2px solid var(--action-primary, #15803D); outline-offset: 2px; } .ds-btn-primary:disabled { background-color: var(--border-hairline, #E6E1D6); color: var(--text-secondary, #52606D); box-shadow: none; cursor: not-allowed; } .ds-btn-icon { width: 16px; height: 16px; flex-shrink: 0; }"
+    },
+    {
+      "name": "Action Rocker Switch",
+      "kind": "custom",
+      "refersTo": "rocker-switch-on",
+      "description": "Tactile 56x32px hardware toggle carrying an embedded Power glyph; loses all botanical green when locked.",
+      "html": "<div class=\"ds-switch-group\"><button type=\"button\" class=\"ds-rocker ds-rocker-on\" aria-pressed=\"true\" aria-label=\"Bật tắt Máy bơm nước\"><span class=\"ds-rocker-thumb\"><svg class=\"ds-rocker-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 2v10\"/><path d=\"M18.4 6.6a9 9 0 1 1-12.77.04\"/></svg></span></button><button type=\"button\" class=\"ds-rocker ds-rocker-off\" aria-pressed=\"false\" aria-label=\"Bật tắt Quạt thông gió\"><span class=\"ds-rocker-thumb\"><svg class=\"ds-rocker-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 2v10\"/><path d=\"M18.4 6.6a9 9 0 1 1-12.77.04\"/></svg></span></button><button type=\"button\" class=\"ds-rocker\" disabled aria-pressed=\"false\" aria-label=\"Công tắc bị khóa\"><span class=\"ds-rocker-thumb\"><svg class=\"ds-rocker-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 2v10\"/><path d=\"M18.4 6.6a9 9 0 1 1-12.77.04\"/></svg></span></button></div>",
+      "css": ".ds-switch-group { display: inline-flex; align-items: center; gap: 12px; } .ds-rocker { position: relative; display: inline-flex; align-items: center; width: 56px; height: 32px; padding: 0; border: 2px solid transparent; border-radius: 9999px; background-color: #CBD2D9; cursor: pointer; transition: background-color 200ms ease, opacity 200ms ease; } .ds-rocker-on { background-color: var(--action-primary, #15803D); } .ds-rocker-on:hover:not(:disabled) { background-color: var(--action-primary-hover, #166534); } .ds-rocker-off:hover:not(:disabled) { background-color: #B4BEC8; } .ds-rocker:focus-visible { outline: 2px solid var(--action-primary, #15803D); outline-offset: 2px; } .ds-rocker:disabled { background-color: var(--border-control, #D8D2C5); opacity: 0.6; cursor: not-allowed; } .ds-rocker-thumb { pointer-events: none; display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 9999px; background-color: #FFFFFF; box-shadow: 0 1px 3px rgba(31, 41, 51, 0.16); transform: translateX(0); transition: transform 200ms ease-out; color: var(--text-muted, #616E7C); } .ds-rocker-on .ds-rocker-thumb { transform: translateX(24px); color: var(--action-primary, #15803D); } .ds-rocker:disabled .ds-rocker-thumb { color: #7B8794; } .ds-rocker-icon { width: 16px; height: 16px; }"
+    },
+    {
+      "name": "Warm Surface Card & Calibrated Range",
+      "kind": "card",
+      "refersTo": "card-surface",
+      "description": "18px white card with 1px warm stone hairline, hairline-divided metric wells, tabular JetBrains Mono readout, and calibrated optimal range bar.",
+      "html": "<section class=\"ds-zone-card\"><header class=\"ds-zone-head\"><div class=\"ds-zone-id\">Z1</div><div class=\"ds-zone-meta\"><h3 class=\"ds-zone-title\">Khu vực 1 (Cà chua)</h3><p class=\"ds-zone-sub\">Node ESP8266_NODE_1</p></div><span class=\"ds-health-pill\">Chỉ số sinh học: <strong>98%</strong></span></header><div class=\"ds-well-grid\"><div class=\"ds-metric-well\"><div class=\"ds-metric-label\"><svg class=\"ds-metric-icon-temp\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z\"/></svg><span>Nhiệt độ</span></div><div class=\"ds-metric-row\"><span class=\"ds-metric-val\">26.4<small class=\"ds-metric-unit\">°C</small></span><span class=\"ds-metric-delta\">+0.4</span></div><div class=\"ds-range-wrap\"><div class=\"ds-range-track\"><div class=\"ds-range-opt\" style=\"left:25%;width:50%;\"></div><div class=\"ds-range-pin\" style=\"left:54%;\"></div></div><div class=\"ds-range-foot\"><span>Chuẩn</span><span class=\"ds-range-nums\">20–28 °C</span></div></div></div><div class=\"ds-metric-well\"><div class=\"ds-metric-label\"><svg class=\"ds-metric-icon-humid\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z\"/><path d=\"M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97\"/></svg><span>Độ ẩm KK</span></div><div class=\"ds-metric-row\"><span class=\"ds-metric-val\">68.0<small class=\"ds-metric-unit\">%RH</small></span><span class=\"ds-metric-delta-cool\">-1.2</span></div><div class=\"ds-range-wrap\"><div class=\"ds-range-track\"><div class=\"ds-range-opt\" style=\"left:25%;width:50%;\"></div><div class=\"ds-range-pin\" style=\"left:52%;\"></div></div><div class=\"ds-range-foot\"><span>Chuẩn</span><span class=\"ds-range-nums\">60–80 %RH</span></div></div></div></div></section>",
+      "css": ".ds-zone-card { font-family: 'Be Vietnam Pro', system-ui, sans-serif; background-color: var(--bg-surface, #FFFFFF); border: 1px solid var(--border-hairline, #E6E1D6); border-radius: var(--card-radius, 18px); padding: 20px; box-shadow: 0 2px 8px rgba(31, 41, 51, 0.04); transition: box-shadow 200ms ease; color: var(--text-primary, #1F2933); max-width: 480px; } .ds-zone-card:hover { box-shadow: 0 6px 18px rgba(31, 41, 51, 0.07); } .ds-zone-head { display: flex; align-items: center; gap: 12px; padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px solid var(--bg-rail, #EFECE4); } .ds-zone-id { width: 40px; height: 40px; border-radius: 12px; background-color: var(--bg-rail, #EFECE4); border: 1px solid var(--border-control, #D8D2C5); display: flex; align-items: center; justify-content: center; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; flex-shrink: 0; } .ds-zone-meta { flex: 1; min-width: 0; } .ds-zone-title { margin: 0; font-size: 16px; font-weight: 700; line-height: 1.375; } .ds-zone-sub { margin: 2px 0 0; font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-muted, #616E7C); } .ds-health-pill { padding: 2px 10px; border-radius: 9999px; background-color: var(--bg-canvas, #F6F4EF); border: 1px solid #E2DDD2; color: #3E4C59; font-size: 12px; font-weight: 600; white-space: nowrap; } .ds-well-grid { display: grid; grid-template-columns: repeat(2, 1fr); } .ds-metric-well { padding: 4px 14px; } .ds-metric-well:first-child { padding-left: 0; border-right: 1px solid var(--bg-rail, #EFECE4); } .ds-metric-well:last-child { padding-right: 0; } .ds-metric-label { display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 600; color: var(--text-secondary, #52606D); margin-bottom: 6px; } .ds-metric-icon-temp { width: 14px; height: 14px; color: var(--state-temp, #C2410C); } .ds-metric-icon-humid { width: 14px; height: 14px; color: var(--state-humidity, #0369A1); } .ds-metric-row { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; } .ds-metric-val { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 24px; font-weight: 700; letter-spacing: -0.025em; } .ds-metric-unit { font-family: 'Be Vietnam Pro', system-ui, sans-serif; font-size: 11px; font-weight: 600; color: var(--text-secondary, #52606D); margin-left: 3px; } .ds-metric-delta { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 11px; font-weight: 600; color: var(--state-temp, #C2410C); } .ds-metric-delta-cool { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 11px; font-weight: 600; color: var(--state-humidity, #0369A1); } .ds-range-wrap { margin-top: 12px; } .ds-range-track { position: relative; height: 6px; width: 100%; background-color: var(--border-hairline, #E6E1D6); border-radius: 9999px; } .ds-range-opt { position: absolute; top: 0; height: 6px; border-radius: 9999px; background-color: #9AC4AE; } .ds-range-pin { position: absolute; top: -3px; width: 12px; height: 12px; border-radius: 9999px; background-color: var(--text-primary, #1F2933); border: 2px solid #FFFFFF; transform: translateX(-50%); box-shadow: 0 1px 2px rgba(31, 41, 51, 0.2); } .ds-range-foot { display: flex; justify-content: space-between; font-size: 10px; color: var(--text-muted, #616E7C); margin-top: 6px; } .ds-range-nums { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text-primary, #1F2933); }"
+    },
+    {
+      "name": "Warm Input & PWM Slider",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Soft linen text/number input paired with the 20px botanical thumb warm-slider and 25%-100% preset chips.",
+      "html": "<div class=\"ds-input-stack\"><label class=\"ds-field-label\" for=\"ds-rule-name\">Tên quy tắc tự động hóa</label><input id=\"ds-rule-name\" type=\"text\" class=\"ds-input\" value=\"Bật quạt thông gió khi nhiệt độ cao\" /><div class=\"ds-slider-block\"><div class=\"ds-slider-head\"><span>Công suất điều khiển PWM</span><span class=\"ds-slider-val\">75%</span></div><input type=\"range\" min=\"0\" max=\"100\" step=\"5\" value=\"75\" class=\"ds-warm-slider\" aria-label=\"Công suất PWM\" /><div class=\"ds-preset-row\"><button type=\"button\" class=\"ds-preset-chip\">25%</button><button type=\"button\" class=\"ds-preset-chip\">50%</button><button type=\"button\" class=\"ds-preset-chip ds-preset-active\">75%</button><button type=\"button\" class=\"ds-preset-chip\">100%</button></div></div></div>",
+      "css": ".ds-input-stack { font-family: 'Be Vietnam Pro', system-ui, sans-serif; display: flex; flex-direction: column; gap: 12px; max-width: 360px; } .ds-field-label { font-size: 12px; font-weight: 600; color: var(--text-primary, #1F2933); } .ds-input { width: 100%; padding: 8px 14px; font-size: 14px; font-family: inherit; color: var(--text-primary, #1F2933); background-color: var(--bg-well, #FAF9F6); border: 1px solid var(--border-control, #D8D2C5); border-radius: 10px; transition: background-color 150ms ease, border-color 150ms ease; } .ds-input:hover:not(:disabled) { border-color: #BDB5A5; } .ds-input:focus-visible { outline: 2px solid var(--action-primary, #15803D); outline-offset: 0; background-color: #FFFFFF; } .ds-slider-block { padding-top: 8px; border-top: 1px solid var(--bg-rail, #EFECE4); } .ds-slider-head { display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 600; color: var(--text-secondary, #52606D); margin-bottom: 8px; } .ds-slider-val { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 14px; font-weight: 700; color: var(--text-primary, #1F2933); } .ds-warm-slider { -webkit-appearance: none; appearance: none; width: 100%; height: 8px; border-radius: 9999px; background-color: var(--border-hairline, #E6E1D6); cursor: pointer; } .ds-warm-slider:focus-visible { outline: 2px solid var(--action-primary, #15803D); outline-offset: 3px; } .ds-warm-slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 9999px; background-color: var(--action-primary, #15803D); border: 2.5px solid #FFFFFF; box-shadow: 0 2px 6px rgba(31, 41, 51, 0.2); transition: transform 160ms cubic-bezier(0.22, 1, 0.36, 1), background-color 160ms ease; } .ds-warm-slider:hover::-webkit-slider-thumb { background-color: var(--action-primary-hover, #166534); transform: scale(1.08); } .ds-preset-row { display: flex; gap: 6px; margin-top: 10px; } .ds-preset-chip { flex: 1; padding: 6px 4px; border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 11px; font-weight: 700; background-color: var(--bg-well, #FAF9F6); color: var(--text-secondary, #52606D); border: 1px solid #E2DDD2; cursor: pointer; transition: background-color 150ms ease, color 150ms ease; } .ds-preset-chip:hover:not(.ds-preset-active) { background-color: var(--bg-rail, #EFECE4); color: var(--text-primary, #1F2933); } .ds-preset-chip:focus-visible { outline: 2px solid var(--action-primary, #15803D); outline-offset: 2px; } .ds-preset-active { background-color: var(--action-primary, #15803D); color: #FFFFFF; border-color: var(--action-primary, #15803D); }"
+    },
+    {
+      "name": "Sand Rail Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item-active",
+      "description": "Warm sand sidebar navigation items highlighting only the current destination in solid botanical green.",
+      "html": "<nav class=\"ds-rail\" aria-label=\"Điều hướng mẫu\"><button type=\"button\" class=\"ds-nav-item ds-nav-active\"><span class=\"ds-nav-left\"><svg class=\"ds-nav-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect width=\"7\" height=\"9\" x=\"3\" y=\"3\" rx=\"1\"/><rect width=\"7\" height=\"5\" x=\"14\" y=\"3\" rx=\"1\"/><rect width=\"7\" height=\"9\" x=\"14\" y=\"12\" rx=\"1\"/><rect width=\"7\" height=\"5\" x=\"3\" y=\"16\" rx=\"1\"/></svg><span>Tổng quan</span></span></button><button type=\"button\" class=\"ds-nav-item\"><span class=\"ds-nav-left\"><svg class=\"ds-nav-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg><span>Cảnh báo</span></span><span class=\"ds-nav-badge\">2</span></button></nav>",
+      "css": ".ds-rail { font-family: 'Be Vietnam Pro', system-ui, sans-serif; width: 224px; padding: 12px; background-color: var(--bg-rail, #EFECE4); border: 1px solid #E2DDD2; border-radius: 14px; display: flex; flex-direction: column; gap: 6px; } .ds-nav-item { width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border: none; border-radius: var(--control-radius, 12px); background: transparent; color: #3E4C59; font-size: 13px; font-weight: 600; cursor: pointer; transition: background-color 150ms ease, color 150ms ease; } .ds-nav-item:hover:not(.ds-nav-active) { background-color: rgba(230, 225, 214, 0.7); color: var(--text-primary, #1F2933); } .ds-nav-item:focus-visible { outline: 2px solid var(--action-primary, #15803D); outline-offset: 2px; } .ds-nav-active { background-color: var(--action-primary, #15803D); color: #FFFFFF; box-shadow: 0 1px 2px rgba(31, 41, 51, 0.1); } .ds-nav-left { display: flex; align-items: center; gap: 12px; } .ds-nav-icon { width: 20px; height: 20px; flex-shrink: 0; } .ds-nav-badge { display: inline-flex; align-items: center; justify-content: center; padding: 2px 8px; border-radius: 9999px; background-color: var(--state-critical, #BE123C); color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 11px; font-weight: 700; }"
+    },
+    {
+      "name": "Semantic Status Badges",
+      "kind": "chip",
+      "refersTo": "badge-warning",
+      "description": "Pill status badges pairing high-contrast pastel fills, 1px borders, and optional 6px indicator dots for non-normal states.",
+      "html": "<div class=\"ds-badge-row\"><span class=\"ds-badge ds-badge-neutral\"><span class=\"ds-dot ds-dot-neutral\" aria-hidden=\"true\"></span>Trực tuyến</span><span class=\"ds-badge ds-badge-warning\"><span class=\"ds-dot ds-dot-warning\" aria-hidden=\"true\"></span>Cận ngưỡng</span><span class=\"ds-badge ds-badge-danger\"><span class=\"ds-dot ds-dot-danger\" aria-hidden=\"true\"></span>Vượt chuẩn</span><span class=\"ds-badge ds-badge-info\">Điều xung PWM</span></div>",
+      "css": ".ds-badge-row { font-family: 'Be Vietnam Pro', system-ui, sans-serif; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; } .ds-badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 10px; border-radius: 9999px; font-size: 12px; font-weight: 600; border: 1px solid transparent; } .ds-badge-neutral { background-color: var(--bg-canvas, #F6F4EF); color: #3E4C59; border-color: #E2DDD2; } .ds-badge-warning { background-color: #FEF3C7; color: #92400E; border-color: #FCD34D; } .ds-badge-danger { background-color: #FFF1F2; color: #9F1239; border-color: #FECDD3; } .ds-badge-info { background-color: #F0F9FF; color: #075985; border-color: #BAE6FD; } .ds-dot { width: 6px; height: 6px; border-radius: 9999px; flex-shrink: 0; } .ds-dot-neutral { background-color: var(--text-muted, #616E7C); } .ds-dot-warning { background-color: #D97706; } .ds-dot-danger { background-color: var(--state-critical, #BE123C); }"
+    },
+    {
+      "name": "Hysteresis 3-Band Visualizer",
+      "kind": "custom",
+      "refersTo": "well-surface",
+      "description": "Domain-specific 3-band deadband visualizer preventing relay chatter with striped holding zone and non-overlapping pins.",
+      "html": "<div class=\"ds-hyst-card\"><div class=\"ds-hyst-head\"><span class=\"ds-hyst-title\">Dải trễ (Hysteresis Band): ±15 %</span><span class=\"ds-hyst-scale\">0% — 100%</span></div><div class=\"ds-hyst-stage\"><div class=\"ds-hyst-pin-top\" style=\"left:40%;\"><span class=\"ds-hyst-tag-trig\">40% (Kích hoạt)</span><span class=\"ds-hyst-stem-trig\"></span></div><div class=\"ds-hyst-pin-top\" style=\"left:55%;transform:translateY(20px);\"><span class=\"ds-hyst-tag-reset\">55% (Ngắt)</span><span class=\"ds-hyst-stem-reset\"></span></div><div class=\"ds-hyst-track\"><div class=\"ds-hyst-band-active\" style=\"left:0%;width:40%;\"></div><div class=\"ds-hyst-band-hold\" style=\"left:40%;width:15%;\"></div><div class=\"ds-hyst-band-safe\" style=\"left:55%;width:45%;\"></div></div><div class=\"ds-hyst-pin-bot\" style=\"left:48%;\"><span class=\"ds-hyst-stem-live\"></span><span class=\"ds-hyst-tag-live\"><span class=\"ds-hyst-live-dot\"></span>Đo: 48%</span></div></div></div>",
+      "css": ".ds-hyst-card { font-family: 'Be Vietnam Pro', system-ui, sans-serif; background-color: var(--bg-well, #FAF9F6); border: 1px solid var(--border-hairline, #E6E1D6); border-radius: var(--well-radius, 14px); padding: 14px; max-width: 460px; } .ds-hyst-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 11px; font-weight: 600; color: var(--text-primary, #1F2933); } .ds-hyst-scale { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 10px; color: var(--text-muted, #616E7C); } .ds-hyst-stage { position: relative; padding: 44px 0; } .ds-hyst-track { position: relative; height: 16px; width: 100%; background-color: var(--bg-rail, #EFECE4); border: 1px solid var(--border-control, #D8D2C5); border-radius: 9999px; overflow: hidden; } .ds-hyst-band-active { position: absolute; top: 0; height: 100%; background-color: rgba(225, 29, 72, 0.85); } .ds-hyst-band-hold { position: absolute; top: 0; height: 100%; background: repeating-linear-gradient(-45deg, #F59E0B, #F59E0B 8px, #451A03 8px, #451A03 16px); } .ds-hyst-band-safe { position: absolute; top: 0; height: 100%; background-color: rgba(21, 128, 61, 0.85); } .ds-hyst-pin-top { position: absolute; top: 0; display: flex; flex-direction: column; align-items: center; } .ds-hyst-pin-bot { position: absolute; bottom: 4px; display: flex; flex-direction: column; align-items: center; } .ds-hyst-tag-trig { transform: translateX(-50%); background-color: #9F1239; color: #FFFFFF; padding: 2px 6px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 10px; font-weight: 700; white-space: nowrap; } .ds-hyst-stem-trig { width: 2px; height: 24px; background-color: #9F1239; margin-top: 2px; } .ds-hyst-tag-reset { transform: translateX(-50%); background-color: #14532D; color: #FFFFFF; padding: 2px 6px; border-radius: 6px; font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 10px; font-weight: 700; white-space: nowrap; } .ds-hyst-stem-reset { width: 2px; height: 10px; background-color: #14532D; margin-top: 2px; } .ds-hyst-stem-live { width: 2px; height: 20px; background-color: var(--text-primary, #1F2933); } .ds-hyst-tag-live { transform: translateX(-50%); display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px; border-radius: 9999px; background-color: var(--text-primary, #1F2933); color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; font-size: 10px; font-weight: 700; white-space: nowrap; } .ds-hyst-live-dot { width: 6px; height: 6px; border-radius: 9999px; background-color: #4BAE72; }"
+    },
+    {
+      "name": "IEC 60947-5-5 E-Stop Control",
+      "kind": "button",
+      "refersTo": "estop-button",
+      "description": "Industrial emergency stop actuator housed in a -45deg amber/charcoal hazard collar; collapses to stone when RBAC-locked.",
+      "html": "<div class=\"ds-hazard-collar\"><button type=\"button\" class=\"ds-estop-btn\"><span class=\"ds-estop-well\" aria-hidden=\"true\"><svg class=\"ds-estop-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polygon points=\"7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2\"/><line x1=\"12\" x2=\"12\" y1=\"8\" y2=\"12\"/><line x1=\"12\" x2=\"12.01\" y1=\"16\" y2=\"16\"/></svg></span><span>DỪNG KHẨN CẤP (E-STOP)</span></button></div>",
+      "css": ".ds-hazard-collar { display: inline-block; padding: 6px; border-radius: 16px; background: repeating-linear-gradient(-45deg, #D97706, #D97706 8px, #292524 8px, #292524 16px); box-shadow: 0 2px 8px rgba(31, 41, 51, 0.04); } .ds-estop-btn { display: inline-flex; align-items: center; gap: 12px; padding: 14px 20px; border-radius: var(--control-radius, 12px); border: 1px solid rgba(253, 164, 175, 0.4); background-color: var(--state-critical, #BE123C); color: #FFFFFF; font-family: 'Be Vietnam Pro', system-ui, sans-serif; font-size: 14px; font-weight: 800; letter-spacing: -0.01em; cursor: pointer; box-shadow: 0 1px 2px rgba(31, 41, 51, 0.12); transition: background-color 150ms ease, transform 150ms ease; } .ds-estop-btn:hover:not(:disabled) { background-color: #9F1239; } .ds-estop-btn:active:not(:disabled) { transform: translateY(2px); } .ds-estop-btn:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 2px; } .ds-estop-btn:disabled { background-color: var(--border-control, #D8D2C5); color: var(--text-secondary, #52606D); border-color: transparent; cursor: not-allowed; } .ds-estop-well { width: 36px; height: 36px; border-radius: 9999px; background-color: #881337; border: 1px solid rgba(253, 164, 175, 0.4); display: flex; align-items: center; justify-content: center; flex-shrink: 0; } .ds-estop-icon { width: 20px; height: 20px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sunlit Agronomy Workbench",
+    "overview": "This system trades dark-slate monitoring clichés for a sunlit, high-legibility warm-stone workbench built to hold up equally well on a bright lecture-hall projector and on a handheld phone inside a greenhouse. A calm linen ground (`#F6F4EF`) overlaid with subtle organic paper grain, a sand navigation rail (`#EFECE4`), crisp white card surfaces (`#FFFFFF`), and deep charcoal ink (`#1F2933`) keep passive sensor data grounded and unhurried.\n\nColor carries operational authority rather than ornament. Neutral stone surfaces own read-only telemetry and structural framing, while a single saturated botanical green (`#15803D`) appears exclusively on actionable controls, active navigation tabs, and live enabled switches. The moment an operator switches to Viewer mode or latches the industrial Emergency Stop, every green affordance disappears into muted stone—making permissions and hardware lockouts readable across a room without reading a word of copy.\n\nSelf-hosted offline Vietnamese typography (`Be Vietnam Pro` paired with tabular `JetBrains Mono`) guarantees crisp alignment across 5-second live telemetry ticks and standalone offline HTML bundles. Honest fallback states (`Chờ dữ liệu...`), explicit semantic warning/critical tints, and 2-step AI approval gates ensure clarity never yields to decorative noise.",
+    "keyCharacteristics": [
+      "Warm linen ground with fine SVG paper texture, soft sand rail, and pure white `18px` cards bounded by `1px` warm stone hairlines.",
+      "Single-hue botanical action accent (`#15803D`) strictly bound to interactive commitments and live enabled hardware controls.",
+      "High-contrast charcoal typography (`Be Vietnam Pro` + `JetBrains Mono` `tabular-nums`) engineered for Vietnamese diacritics and zero numeric jitter.",
+      "Domain-specific visual instrumentation: calibrated crop range bars, 3-band hysteresis deadband visualizers, and an IEC 60947-5-5 hazard-collared Emergency Stop.",
+      "Offline-resilient self-hosted `.woff2` fonts and pure SVG telemetry sparklines requiring zero external network calls."
+    ],
+    "rules": [
+      {
+        "name": "The Action-First Color Rule",
+        "body": "Reserve saturated botanical green (`#15803D`) strictly for interactive controls, active navigation states, and primary commitments; when a control is disabled by Viewer RBAC or Emergency Stop, strip every trace of green back to neutral stone (`#D8D2C5` / `#E6E1D6`) so lockout is visually unmistakable.",
+        "section": "colors"
+      },
+      {
+        "name": "The Restraint-in-Status Rule",
+        "body": "Healthy microclimate readings remain calm and unbadged (`Trong chuẩn` requires no green pill); introduce semantic amber, crimson, or sky fills only when a sensor approaches or crosses biological thresholds, or when hardware reports an active warning or fault.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Telemetry Rule",
+        "body": "Render every live reading, delta, timestamp, wattage, and threshold badge in `JetBrains Mono` with `font-variant-numeric: tabular-nums` so 5-second updates never cause horizontal layout jitter.",
+        "section": "typography"
+      },
+      {
+        "name": "The Offline Font Bundle Rule",
+        "body": "Bundle `Be Vietnam Pro` and `JetBrains Mono` locally as inline/self-hosted `.woff2` subsets covering Vietnamese glyphs so offline `file://` execution never degrades to mismatched system fonts.",
+        "section": "typography"
+      },
+      {
+        "name": "The Single-Source Sync Rule",
+        "body": "Present the live synchronization timestamp and configurable polling cycle once in the sticky topbar; never duplicate clock badges inside page headers or zone cards.",
+        "section": "layout"
+      },
+      {
+        "name": "The Hairline-Before-Shadow Rule",
+        "body": "Separate interior sections with `1px` `#EFECE4` hairline dividers and `#FAF9F6` tonal wells before reaching for drop shadows; keep card shadows at `0.04–0.07` opacity so elevation never obscures telemetry legibility.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Nested Radius Step-Down Rule",
+        "body": "Maintain a visible concentric step-down from outer containers (`18px` / `20px`) to inner wells (`14px`) to interactive controls (`12px` / `10px` / `8px`) so nested boundaries never pinch or flatten.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do restrict `#15803D` botanical green exclusively to interactive controls, active navigation tabs, and primary actions so Viewer read-only and E-Stop lockouts strip green across the entire UI.",
+      "Do apply `JetBrains Mono` with `tabular-nums` on every sensor metric, delta, wattage, PWM preset, threshold pin, and timestamp.",
+      "Do structure interior card content with `1px` `#EFECE4` hairline dividers and `#FAF9F6` wells inside `18px` white cards instead of nesting bordered cards inside cards.",
+      "Do pair every semantic status hue with an explicit Vietnamese label, icon, or numeric measurement for daylight and projector accessibility.",
+      "Do preserve `44×44px` minimum mobile touch targets and honest `Chờ dữ liệu...` / empty-state copy whenever sensor history has fewer than two points."
+    ],
+    "donts": [
+      "Don't add green `Trong chuẩn` badges or green borders to passive healthy telemetry cards; keep optimal readings neutral and quiet.",
+      "Don't repeat live sync timestamps inside dashboard titles or zone headers when the sticky topbar already displays the single-source clock.",
+      "Don't rely on external Google Fonts CDNs or remote CSS assets that fail inside the standalone offline `file://` defense bundle.",
+      "Don't introduce dark-slate neon themes, heavy pure-black shadows, or single-click AI hardware actuation bypassing `SafeConfirmModal`."
+    ]
+  }
+}
